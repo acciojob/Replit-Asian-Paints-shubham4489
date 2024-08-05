@@ -13,7 +13,7 @@ form.addEventListener("submit", function (event){
 	let cell =document.getElementById(cellId);
 	cell.style.backgroundColor= selectedColor;
 	if(previousSelectedElement){
-		previousSelectedElement.style.backgroundColor= "transparent";	
+		previousSelectedElement.style.backgroundColor= "white";	
 	}
     previousSelectedElement= cell;
 });
